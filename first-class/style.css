@@ -11,15 +11,26 @@ body {
   padding: 2rem;
 }
 
-.box-one {
+.box {
   width: 150px;
   height: 150px;
+  margin-bottom: 1rem;
+}
+
+.box-one {
   background-color: red;
 }
 .box-two {
-  width: 150px;
-  height: 150px;
   background-color: green;
+}
+.box-three {
+  background-color: yellow;
+}
+.box-four {
+  background-color: orange;
+}
+.box-five {
+  background-color: orchid;
 }
 
 h1 {

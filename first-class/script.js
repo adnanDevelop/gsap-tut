@@ -27,3 +27,31 @@ gsap.from("h1", {
   opacity: 0,
   stagger: 0.3, // Its accept the negative value too
 });
+
+// In this video i will learn about time line
+const tl = gsap.timeline();
+
+tl.to(".box-three", {
+  x: 500,
+  duration: 1,
+  delay: 1,
+  rotate: 360,
+  scale: 0.5,
+  borderRadius: "100%",
+});
+
+tl.to(".box-four", {
+  x: 500,
+  duration: 1.3,
+  rotate: 360,
+  scale: 0.5,
+  borderRadius: "100%",
+});
+
+tl.to(".box-five", {
+  x: 500,
+  duration: 1.5,
+  rotate: 360,
+  scale: 0.5,
+  borderRadius: "100%",
+});

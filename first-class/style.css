@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   background-color: #111;
+  padding: 2rem;
 }
 
 .box-one {

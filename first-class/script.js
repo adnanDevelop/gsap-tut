@@ -6,6 +6,8 @@ gsap.to(".box-one", {
   borderRadius: "100%",
   backgroundColor: "purple",
   scale: 1.5,
+  repeat: -1, // if we want to repeat it multiple time then we use this it accept negative value too
+  yoyo: true, //if we want inifinite movement
 });
 gsap.from(".box-two", {
   x: 500,

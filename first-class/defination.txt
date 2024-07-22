@@ -1,0 +1,6 @@
+What is difference between to and from?
+1: to() start from initial position to final position
+2: from() start from final position to initial position
+
+What is the use of stagger?
+With the help of stagger we can animate same multiple elements separatly and stagger take time like stagger: 1 to give each element to animate. It accept the negative value if we give negative value then aniamtion start from end element and to first element.
